@@ -1,0 +1,4 @@
+- navbar
+- banner
+- trending movies area
+- pagination area
