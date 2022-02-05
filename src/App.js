@@ -16,7 +16,7 @@ function App() {
       <Route path="/" element={<>
       <Banner/>
       <Movies/>
-      <Pagination/>
+      {/* <Pagination/> */}
       </>
       }/>
       <Route path="/favourites" element={<Favourites />} />
