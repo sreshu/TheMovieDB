@@ -9,5 +9,7 @@
 - Emojis
 - React Routing
 
-## Demo V1.0
+### Demo V1.2
+
+![V1.0](https://github.com/sreshu/TheMovieDB/blob/master/demo/demo-v1.2.gif)
 
