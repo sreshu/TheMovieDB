@@ -9,7 +9,7 @@
 - Emojis
 - React Routing
 
-### Demo V1.2
+### Hosted on 
 
-![V1.0](https://github.com/sreshu/TheMovieDB/blob/master/demo/demo-v1.2.gif)
+![Link to website](https://tmdb-popular-movies.netlify.app/)
 

@@ -23,12 +23,7 @@ function App() {
 
       
     </Routes>
-    {/* <Banner></Banner> */}
-    {/* <Movies></Movies> */}
-    {/* <Pagination></Pagination> */}
-
-    {/* <h2> Trending Page </h2> */}
-    {/* <h2> Pagination </h2> */}
+  
 
     </BrowserRouter>
   );
