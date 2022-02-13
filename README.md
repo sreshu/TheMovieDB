@@ -9,7 +9,6 @@
 - Emojis
 - React Routing
 
-### Hosted on 
+### Live at :
 
-tmdb-popular-movies.netlify.app/
-
+https://tmdb-popular-movies.netlify.app/
