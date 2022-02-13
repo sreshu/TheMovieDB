@@ -28,10 +28,15 @@ function Movies() {
     }
 
     useEffect(function(){
+        
         axios.get(`https://api.themoviedb.org/3/trending/movie/week?api_key=e695929ac5370be44f5852f79e12052f&page=${pageNumber}`).
         then((res)=>
             {console.table(res.data.results)
             setMovies(res.data.results)
+            let oldFav = localStorage.getItem("imdb");
+            oldFav = JSON.parse(oldFav)
+            setFavourites([...oldFav])
+
             }
         )
 
@@ -41,6 +46,15 @@ function Movies() {
         let newArray = [...favourites, movie]
         setFavourites([...newArray])
         console.log(newArray)
+        localStorage.setItem("imdb", JSON.stringify(newArray))
+    }
+
+    let del = (movie) => {
+        let newArray = favourites.filter((m) => m.id != movie.id)
+        setFavourites([...newArray])
+        localStorage.setItem("imdb", JSON.stringify(newArray))
+
+
     }
 
   return <>
@@ -88,7 +102,7 @@ function Movies() {
                     !favourites.find((m)=>m.id==movie.id) ?
                     <div className='absolute top-2 right-2 p-2 bg-gray-800 rounded-xl text-xl cursor-pointer' onClick={() => add(movie)}>❤️</div>
                     :
-                    <div className='absolute top-2 right-2 p-2 bg-gray-800 rounded-xl text-xl cursor-pointer' onClick={() => add(movie)}>❌</div>
+                    <div className='absolute top-2 right-2 p-2 bg-gray-800 rounded-xl text-xl cursor-pointer' onClick={() => del(movie)}>❌</div>
 
 
                 }
