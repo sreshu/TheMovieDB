@@ -11,5 +11,5 @@
 
 ### Hosted on 
 
-![tmdb-popular-movies.netlify.app/]
+tmdb-popular-movies.netlify.app/
 
