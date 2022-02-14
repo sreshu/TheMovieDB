@@ -12,3 +12,5 @@
 ### Live at ⬇️
 
 https://tmdb-popular-movies.netlify.app/
+
+To Do- Fix app crashing
