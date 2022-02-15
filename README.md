@@ -11,6 +11,6 @@
 
 ### Live at ⬇️
 
-https://tmdb-popular-movies.netlify.app/
+https://not-rotten-tomatoes.netlify.app/
 
-To Do- Fix app crashing
+To Do -> Add Movie Review Blogs , Login User Access
